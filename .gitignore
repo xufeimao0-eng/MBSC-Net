@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude
+.claude/
+
+# Results (checkpoints, logs, plots)
+results/
+
+# Datasets (users download separately)
+weibo21 dataset/
+weibo_dataset/
+pheme dataset/
+CFND dataset/
+
+# Backup files
+*.bak
+*.bak2
+*.bak3
+
+# LaTeX artifacts
+*.aux
+*.log
+*.out
+texput.log
+
+# Dataset files in root
+pheme.train
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
